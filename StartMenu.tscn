@@ -40,6 +40,7 @@ margin_right = 305.0
 margin_bottom = 92.0
 focus_neighbour_bottom = NodePath("../NewGameButton")
 text = "Quit"
+
 [connection signal="pressed" from="VBoxContainer/NewGameButton" to="." method="_on_NewGameButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/LoadGameButton" to="." method="_on_LoadGameButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/CreditsButton" to="." method="_on_CreditsButton_pressed"]
